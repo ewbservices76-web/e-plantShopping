@@ -16,9 +16,9 @@ npm run dev
 npm run build
 
 ## Developer
-Eric W. Barclay
-EWB Consulting Services
-ericbarclay76@gmail.com
-ewbservices76@gmail.com
+Eric W. Barclay |
+EWB Consulting Services |
+ericbarclay76@gmail.com |
+ewbservices76@gmail.com |
 ewbconsultingservices@gmail.com
 
