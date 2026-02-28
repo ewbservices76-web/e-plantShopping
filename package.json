@@ -5,12 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/e-plantShopping/",
+    "build:local": "vite build --base=/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite build; vite preview --host",
-    "preview:local": "vite build --base=/ && vite preview --host"
+    "preview": "npm run build && vite preview --host",
+    "preview:local": "npm run build:local && vite preview --host"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.3",
